@@ -10,7 +10,7 @@ const Home1 = () => {
       <div className="nav-bar">
         <h1>Habbitnetic</h1>
       </div>
-      <div className="d-flex h-75v p-t-2">
+      <div className="d-flex h-90v p-t-2">
         <div className="side-bar">
           <TextWithIcon
             styleClass={"options"}
