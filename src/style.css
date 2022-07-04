@@ -1,8 +1,10 @@
 @import url('./pages/Home/style.css');
+@import url('./pages/Home1/style.css');
+@import url('./components/SqaureCard/style.css');
 
 
 :root{
-    --background-grey:#E5E5E5;
+    --background-grey: #f5f4f4;
     --theme-blue: #5348C7
 }
 
@@ -25,6 +27,10 @@
 button{
     border-radius: none;
 }
+.cursor-pointer{
+    cursor: pointer;
+}
+
 
 .text-blue{
     color: var(--theme-blue);
@@ -44,4 +50,17 @@ button{
 }
 .p-t-15{
     padding-top: 15px;
+}
+.p-r-5{
+    padding-right: 5px;
+}
+
+.fn-sm{
+    font-size: 0.75rem;
+}
+.text-bold{
+    font-weight: 500;
+}
+.text-bolder{
+    font-weight: 700;
 }

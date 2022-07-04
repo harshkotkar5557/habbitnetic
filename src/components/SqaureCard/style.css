@@ -1,0 +1,52 @@
+.square-card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 200px;
+    height: 180px;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: var(--white);
+}
+
+.labels{
+    display: flex;
+    gap: 0.2rem;
+    font-size: 0.65rem;
+}
+.labels label{
+    padding:  0.25rem;
+    color: white;
+    border-radius: 5px;
+}
+.total-count{
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+/* Background type */
+.bg-blue{
+    background-color: #60A5FA;
+}
+.bg-red{
+    background-color: #FEE2E2;
+}
+.bg-yellow{
+    background-color: #FBBF24;
+}
+.bg-green{
+    background-color: #34D399;
+}
+
+.bg-sky-blue{
+    background-color: #DBEAFE;
+}
+.bg-light-red{
+    background-color: #FEE2E2;
+}
+.bg-light-yellow{
+    background-color: #FEF3C7;
+}
+.bg-light-green{
+    background-color: #D1FAE5;
+}

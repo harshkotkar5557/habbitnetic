@@ -1,0 +1,73 @@
+
+
+.h-75v{
+    height: 85vh;
+}
+.p-t-2{
+    padding-top: 2rem;
+}
+.nav-bar{
+    background-color: var(--white);
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+}
+.side-bar{
+    position: relative;
+    width: 30%;
+    max-width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 3rem;
+}
+.options{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 8rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.options:hover{
+    border-radius: 5px;
+    background-color: var(--white);
+}
+.options i{
+    font-size: 1.5rem;
+    width: 1.5rem;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    width: 80%;
+}
+.user-info .user-name{
+    flex: 3;
+}
+.user-info .login-btn i{
+    display: block;
+}
+.user-info .login-btn{
+    flex: 1;
+    text-align: center;
+    width: 1rem;
+    height: 1rem;
+}
+.content-section{
+    overflow: scroll;
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.task-type-container{
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
