@@ -1,11 +1,21 @@
 @import url('./pages/Home/style.css');
 @import url('./pages/Home1/style.css');
 @import url('./components/SqaureCard/style.css');
+@import url('./components/Modal/style.css');
+@import url('./components/Form/style.css');
+@import url('./components/Sidebar/style.css');
 
 
 :root{
     --background-grey: #f5f4f4;
     --theme-blue: #5348C7
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .w-100{
@@ -39,6 +49,10 @@ button{
     background-color: var(--theme-blue);
 }
 
+.m-1{
+    margin: 1rem;
+}
+
 .p-2{
     padding: 2rem
 }
@@ -63,4 +77,8 @@ button{
 }
 .text-bolder{
     font-weight: 700;
+}
+
+abbr[title] {
+    text-decoration: none;
 }

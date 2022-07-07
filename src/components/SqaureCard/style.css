@@ -1,12 +1,17 @@
 .square-card{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     gap: 0.5rem;
     width: 200px;
-    height: 180px;
+    height: 150px;
     padding: 1rem;
     border-radius: 5px;
     background-color: var(--white);
+    cursor: pointer;
+}
+.square-card:hover{
+    box-shadow: 0 0 3px 2px var(--lightGrey);
 }
 
 .labels{
@@ -24,7 +29,32 @@
     font-size: 3rem;
 }
 
+.round-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: var(--white);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
 /* Background type */
+.text-blue{
+    color: #60A5FA;
+}
+.text-red{
+    color: #FEE2E2;
+}
+.text-yellow{
+    color: #FBBF24;
+}
+.text-green{
+    color: #34D399;
+}
+
 .bg-blue{
     background-color: #60A5FA;
 }
@@ -38,7 +68,7 @@
     background-color: #34D399;
 }
 
-.bg-sky-blue{
+.bg-light-blue{
     background-color: #DBEAFE;
 }
 .bg-light-red{
@@ -50,3 +80,4 @@
 .bg-light-green{
     background-color: #D1FAE5;
 }
+
