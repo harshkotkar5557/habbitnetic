@@ -3,5 +3,6 @@ export const ACTIONS = {
     REMOVE_HABIT: "remove-habit",
     UPDATE_HABIT: "update-habit",
     DELETE_HABIT: "delete-habit",
+    ARCHIVE_HABIT: "archive-habit",
     UPDATE_REPEATION_STATUS: "update-repeation-status",
 }

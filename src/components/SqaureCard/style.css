@@ -13,7 +13,11 @@
 .square-card:hover{
     box-shadow: 0 0 3px 2px var(--lightGrey);
 }
-
+.square-card .title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 125px;
+}
 .labels{
     display: flex;
     gap: 0.2rem;
@@ -81,3 +85,6 @@
     background-color: #D1FAE5;
 }
 
+.gap-10x{
+    gap: 10px;
+}

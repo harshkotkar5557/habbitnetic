@@ -8,6 +8,8 @@ const DataHabitProvider = ({ children }) => {
     habits: [],
     completedHabit: [],
     inProgressHabit: [],
+    trashHabits: [],
+    archiveHabits: [],
     labels: [],
     loading: false,
     error: false,
